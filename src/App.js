@@ -649,7 +649,7 @@ class App extends Component {
         return(
           <div id="contactForm" key="step7">
 
-            <h1 className="contact-form-header">Thank you for your submission!</h1>
+            <h1 className="contact-form-header">Thank(s) you for your submission!</h1>
             <small className="contact-form-description">Connect with us on social media </small>
             <Follow username="crowdtips_xyz" options={{size:"large"}}/>
             <Mention username="crowdtips_xyz" options={{size:"large"}}/>
