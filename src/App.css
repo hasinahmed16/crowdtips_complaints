@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/*hasin*/
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -31,7 +31,7 @@
 /*********************************/
 
 html, body {
-  background-color: white; 
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
@@ -45,14 +45,14 @@ h1, h2, h3 {
   margin: 0;
 }
 
-#rightsidebar{ 
+#rightsidebar{
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh; 
-  width: 25%; 
+  height: 100vh;
+  width: 25%;
   background-color: rgba(20,20,20,0.9);
-  overflow-y: auto; 
+  overflow-y: auto;
   color: white;
 
 }
@@ -63,7 +63,7 @@ ul{
 
 #rightsidebar #header, #valueproposition, #train, #trainlines, #complain, #complaints {
   padding-left: 5%;
-  padding-right: 5%; 
+  padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -74,42 +74,42 @@ ul{
   background: red;
   width: 45%;
   height: 100px;
-  line-height: 100px; 
+  line-height: 100px;
   text-align: center;
-  vertical-align: middle; 
-  border-radius: 20px; 
-  margin: 5px; 
+  vertical-align: middle;
+  border-radius: 20px;
+  margin: 5px;
   display: block;
   float: left;
   opacity: .75;
 
-  
-  
+
+
 }
 
 .hatepoint:hover {
   opacity: .75;
   cursor: pointer;
-  border-radius: 0px; 
+  border-radius: 0px;
   transition: border-radius 0.125s;
 }
 
 
 input {
   margin-right: 5%;
-  margin-left: 5%; 
-  height: 5%; 
+  margin-left: 5%;
+  height: 5%;
   width: 90%;
-  background: transparent; 
+  background: transparent;
   background-color: rgba(112, 104, 104, 0.459);
-  border: none; 
-  border-bottom: solid 5px white; 
-  color: red; 
-  font-size: 20px; 
+  border: none;
+  border-bottom: solid 5px white;
+  color: red;
+  font-size: 20px;
 }
 
 input:active {
-  border: none; 
+  border: none;
   outline: none;
 }
 
@@ -129,23 +129,23 @@ input:focus {
   top:0;
   /* width: 1045px;75%; */
   width:75%;
-  height: 100vh; 
+  height: 100vh;
   max-height: 1500px;
   background-color: rgba(20,20,20,1);
 }
 
 #mapbody iframe {
-  width: 100%; 
+  width: 100%;
   height: 100%;
 }
 
 
 
 #footer {
-  background: white; 
+  background: white;
   color: rgba(20,20,20,0.7);
   position: fixed;
-  bottom: 0; 
+  bottom: 0;
   width: 25%;
   z-index: 1;
   text-align: center;
@@ -218,27 +218,27 @@ input:focus {
 
 
 
-#contactForm { 
+#contactForm {
   display: block;
 
-  border: 6px solid salmon; 
+  border: 6px solid salmon;
   padding: 2em;
   width: 60%;
   background: #fff;
 
   margin: auto 0;
   z-index: 30;
-  
+
 }
 
-#contact-input, #contact-textarea { 
+#contact-input, #contact-textarea {
   margin: .8em auto;
-  font-family: inherit; 
-  text-transform: inherit; 
+  font-family: inherit;
+  text-transform: inherit;
   font-size: inherit;
-  
-  display: block; 
-  width: 90%; 
+
+  display: block;
+  width: 90%;
   padding: .4em;
 }
 #contace-textarea { height: 80px; resize: none; }
@@ -247,10 +247,10 @@ input:focus {
   color: #222;
 }
 
-.formBtn { 
+.formBtn {
   width: 140px;
   display: inline-block;
-  
+
   background: teal;
   color: rgb(41, 37, 37);
   font-weight: 100;
